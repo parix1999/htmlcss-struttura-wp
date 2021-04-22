@@ -37,3 +37,21 @@ header{
     height:100px;
     background-color:#abcfe8;
 }
+.box1, .box2, .box3{
+    background-color:#abcfe8;
+}
+.box1{
+    width:20%;
+    height:400px;
+    border:1px dotted black;
+}
+.box2{
+    width:60%;
+    height:400px;
+    border:1px dotted black;
+}
+.box3{
+    width:20%;
+    height:400px;
+    border:1px dotted black;
+}
