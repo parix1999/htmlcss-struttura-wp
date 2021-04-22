@@ -36,22 +36,27 @@ header{
     width:100%;
     height:100px;
     background-color:#abcfe8;
+    margin-bottom:20px;
 }
 .box1, .box2, .box3{
     background-color:#abcfe8;
 }
-.box1{
-    width:20%;
+.box-float .box1{
+    width:calc(20% - 15px);
     height:400px;
+    margin-right:15px;
     border:1px dotted black;
 }
-.box2{
-    width:60%;
+.box-float .box2{
+    width:calc(60% - 30px);
     height:400px;
+    margin-left:15px;
+    margin-right:15px;
     border:1px dotted black;
 }
-.box3{
-    width:20%;
+.box-float .box3{
+    width:calc(20% - 15px);
     height:400px;
+    margin-left:15px;
     border:1px dotted black;
 }
